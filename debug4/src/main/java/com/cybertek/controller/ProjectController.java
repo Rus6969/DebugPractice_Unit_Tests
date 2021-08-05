@@ -39,7 +39,8 @@ public class ProjectController {
 
         model.addAttribute("project",new ProjectDTO());
         model.addAttribute("projects",projectService.listAllProjects());
-        model.addAttribute("managers",userService.listAllByRole("manager"));
+        // this manager is comming from enum
+        model.addAttribute("managers",userService.listAllByRole("manager")); // in DB Manager 
 
         return "/project/create";
     }
