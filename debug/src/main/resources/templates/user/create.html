@@ -81,6 +81,7 @@
                                             <div class="col-sm-6 col-md-6">
                                                 <div class="form-group">
                                                     <label for="password" class="col-form-label">Password</label>
+                                                    <!-- ------------------------Here the bug  type must be from small letter ---------------------------- -->
                                                     <input id="password" type="Password" placeholder="password" th:field="*{passWord}" class="form-control"
                                                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}" required>
                                                     <div class="invalid-feedback">

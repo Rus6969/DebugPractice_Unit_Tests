@@ -19,6 +19,8 @@ public class User extends BaseEntity {
 
     private String firstName;
     private String lastName;
+    // with help of this annotation we cover situation when we can create a duplicate user
+    @Column(unique = true)
     private String userName;
     private String passWord;
     private boolean enabled;
