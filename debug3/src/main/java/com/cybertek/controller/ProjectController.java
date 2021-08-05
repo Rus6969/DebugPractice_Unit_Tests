@@ -43,8 +43,9 @@ public class ProjectController {
 
         return "/project/create";
     }
-
+    // here wrong crud method is added  current path : project/create-project which is wrong
     @PostMapping("/create-project")
+   // @PostMapping("/create-project")  right option also we could change path in create html
     public String insertProject(ProjectDTO project){
         projectService.save(project);
         return "redirect:/project/create";
