@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="debug5" />
+        <module name="debug6" />
         <module name="debug3" />
         <module name="debug" />
         <module name="debug4" />
@@ -20,6 +21,7 @@
       <module name="debug3" target="11" />
       <module name="debug4" target="11" />
       <module name="debug5" target="11" />
+      <module name="debug6" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +31,7 @@
       <module name="debug3" options="-parameters" />
       <module name="debug4" options="-parameters" />
       <module name="debug5" options="-parameters" />
+      <module name="debug6" options="-parameters" />
     </option>
   </component>
 </project>

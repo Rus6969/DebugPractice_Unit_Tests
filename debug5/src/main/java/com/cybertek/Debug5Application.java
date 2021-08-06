@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
+/*
+after manager is created and project created status is not changing to open
+ */
 public class Debug5Application {
 
     public static void main(String[] args) {

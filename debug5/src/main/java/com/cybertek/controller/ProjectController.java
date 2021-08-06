@@ -11,10 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -25,7 +22,7 @@ import java.util.stream.Collectors;
 public class ProjectController {
 
 
-    private ProjectService projectService;
+    private  ProjectService projectService;
     private UserService userService;
 
     public ProjectController(ProjectService projectService, UserService userService) {
@@ -76,7 +73,7 @@ public class ProjectController {
         return "/project/update";
     }
 
-    @PostMapping("/update/{projectcode}")
+    @PatchMapping("/update/{projectcode}")
     public String updateProject(@PathVariable("projectcode") String projectcode,ProjectDTO project){
 
         projectService.update(project);
