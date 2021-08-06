@@ -15,9 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="994f3bae-b064-4123-be80-c8ac17c289d7" name="Default Changelist" comment="third debug was covered">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/debug4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug4/src/main/java/com/cybertek/Debug4Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/debug4/src/main/java/com/cybertek/Debug4Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug4/src/main/java/com/cybertek/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/debug4/src/main/java/com/cybertek/controller/ProjectController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Debug4Application">
+  <component name="RunManager" selected="Spring Boot.Debug5Application">
     <configuration name="bn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bn" />
       <module name="debug" />
@@ -87,6 +84,17 @@
     <configuration name="p" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p" />
       <module name="debug" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,7 +161,10 @@
       <workItem from="1628103017324" duration="239000" />
       <workItem from="1628103297086" duration="531000" />
       <workItem from="1628186601068" duration="6233000" />
-      <workItem from="1628197958669" duration="547000" />
+      <workItem from="1628197958669" duration="583000" />
+      <workItem from="1628212758488" duration="434000" />
+      <workItem from="1628227296714" duration="196000" />
+      <workItem from="1628251180989" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="ee">
       <created>1628088705567</created>
@@ -190,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628195550573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="third debug was covered">
+      <created>1628200341333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628200341333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,10 +239,11 @@
     </state>
     <state x="483" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-630.1920.1057/0.23.1792.1020@0.23.1792.1020" timestamp="1628103375561" />
     <state x="483" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-630.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1628089142515" />
-    <state x="765" y="444" key="Github.Dialog.Accounts.Choose" timestamp="1628088763073">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="765" y="431" key="Github.Dialog.Accounts.Choose" timestamp="1628200347888">
+      <screen x="0" y="23" width="1792" height="994" />
     </state>
     <state x="765" y="444" key="Github.Dialog.Accounts.Choose/-1920.-630.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1628088763073" />
+    <state x="765" y="431" key="Github.Dialog.Accounts.Choose/-1920.-630.1920.1057/0.23.1792.994@0.23.1792.994" timestamp="1628200347888" />
     <state width="1403" height="272" key="GridCell.Tab.0.bottom" timestamp="1628197125891">
       <screen x="0" y="23" width="1792" height="998" />
     </state>
@@ -354,10 +373,11 @@
     </state>
     <state x="463" y="134" key="SettingsEditor/-1920.-630.1920.1057/0.23.1792.1022@0.23.1792.1022" timestamp="1628087522079" />
     <state x="463" y="134" key="SettingsEditor/-1920.-630.1920.1057/0.23.1792.1024@0.23.1792.1024" timestamp="1628087697557" />
-    <state x="520" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628088761155">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="520" y="246" key="Vcs.Push.Dialog.v2" timestamp="1628200345067">
+      <screen x="0" y="23" width="1792" height="994" />
     </state>
     <state x="520" y="253" key="Vcs.Push.Dialog.v2/-1920.-630.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1628088761155" />
+    <state x="520" y="246" key="Vcs.Push.Dialog.v2/-1920.-630.1920.1057/0.23.1792.994@0.23.1792.994" timestamp="1628200345067" />
     <state x="742" y="414" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1628088556515">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
